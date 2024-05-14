@@ -1,7 +1,7 @@
 import { jsxs, Fragment, jsx } from "react/jsx-runtime";
 import React, { lazy, Suspense } from "react";
 import { renderToPipeableStream } from "react-dom/server";
-const reactLogo = "/assets/react-CHdo91hT.svg";
+const reactLogo = "https://elcodmaler.github.io/test-ssr/fisiotFitnes/dist/assets/react-CHdo91hT.svg";
 const Card = lazy(() => import("./assets/Card-QtpkJnVO.js"));
 function App() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
